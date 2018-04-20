@@ -1,0 +1,90 @@
+#resume {
+  background-image: url("../images/background-gradient.png");
+  background-size: cover;
+  padding-bottom: 25px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  box-shadow: -1px 10px 31px -9px rgba(220, 139, 227, 0.58);
+  padding-top: 66px;
+}
+
+#resume .balance {
+  text-align: center;
+}
+
+#resume .balance h2 {
+  margin: 0;
+  font-size: 16px;
+}
+
+#resume .balance h2 span {
+  font-size: 22px;
+}
+
+#resume .balance p {
+  margin: 5px 0;
+}
+
+#my-wallet {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#my-wallet .info h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+
+#my-wallet .info p {
+  font-size: 12px;
+}
+
+#my-wallet .info p img {
+  height: 19px;
+}
+
+#my-wallet a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4fc1f9;
+  letter-spacing: 2px;
+  font-size: 10px;
+}
+
+#coin-list ul {
+  padding: 0;
+  margin: 0 5px;
+}
+
+#coin-list ul li {
+  background: linear-gradient(to right, #535f80 0%, #333f60 100%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+#coin-list ul li .coin h4,
+#coin-list ul li .price h4 {
+  margin: 5px 0 2px 0;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#coin-list ul li .coin p,
+#coin-list ul li .price p {
+  opacity: 0.8;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+#coin-list ul li .chart {
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */

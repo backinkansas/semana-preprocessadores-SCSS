@@ -1,0 +1,111 @@
+#cycle {
+    #header {
+        opacity: 0.5;
+    }
+
+    #card {
+        background-image: url("../images/background-gradient-pb.png");
+        background-size: cover;
+        position: relative;
+        @extend %flexbox;
+        width: 83%;
+        margin: 82px 20px 15px 26px;
+        border-radius: $border-radius;
+        padding: 30px 2px;
+
+        .floating-button {
+            right: calc(50% - 20px);
+            bottom: -16px;
+            width: 33px;
+            height: 33px;
+            background: linear-gradient(to right, #9785eb 0%, #f97ab3 100%);
+
+            img {
+                width: 19px;
+                height: 19px;
+                margin-left: 0px;
+            }
+        }
+        .wallet {
+            width: 50px;
+            opacity: 0.5;
+        }
+
+        .balance {
+            h1 {
+                font-size: 18px;
+                margin: 5px 0;
+
+                span {
+                    font-size: 24px;
+                }
+            }
+
+            p {
+                font-size: 12px;
+                opacity: .5;
+
+                .inline-icon {
+                    height: 17px;
+                }
+            }
+        }
+
+    }
+
+    #graph {
+        h4 {
+            display: inline-block;
+            margin-left: 38px;
+            font-weight: 300;
+        }
+
+        img {
+            width: 100vw;
+        }
+    }
+
+    #percentages {
+        .tabs {
+            ul {
+                @extend %flexbox;
+                list-style: none;
+                padding-left: 0;
+                font-size: 14px;
+                opacity: 0.5;
+    
+                li{
+                }
+    
+            }
+        }
+    }
+    
+    .numbers {
+        @extend %flexbox;
+        margin-bottom: 20px;
+    
+        div {
+            h2 {
+                margin-bottom: 5px;
+
+                span {
+                    font-size: 16px;
+                    opacity: 0.5;
+                }
+            }
+    
+            p {
+                opacity: 0.5;
+                font-size: 11px;
+                letter-spacing: 2px;
+            }
+        }
+
+        div~div {
+            border-left: 1px solid #242f48;
+            padding-left: 32px;
+        }
+    }
+}
+

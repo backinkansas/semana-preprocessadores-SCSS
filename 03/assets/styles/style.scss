@@ -1,0 +1,184 @@
+// Estilos gerais
+* {
+    box-sizing: border-box;
+    // background-color: #2F343B;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+body {
+    margin: 0;
+    background-color: #364061;
+}
+
+p {
+    margin: 0;
+}
+
+// Estilos comuns
+
+.inline-icon {
+    height: 26px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.floating-button {
+    border: none;
+    border-radius: 100%;
+    position: absolute;
+    right: 20px;
+    bottom: -20px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+
+    img {
+        margin-top: 3px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+// Div resume
+
+#resume {
+    background-image: url('../images/background-gradient.png');
+    background-size: cover;
+    padding-bottom: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    box-shadow: -1px 10px 31px -9px rgba(220,139,227,0.58);
+
+    .header {
+
+        ul{
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            margin: 0;
+            padding: 30px 0 0 0;
+
+            li{
+                list-style: none;
+
+                .icon {
+                    width: 22px;
+                }
+
+                h4 {
+                    margin: 0;
+                    text-transform: uppercase;
+                    letter-spacing: 8px;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .balance {
+        text-align: center;
+
+        h2 {
+            margin: 0;
+            font-size: 16px;
+
+            span {
+                font-size: 22px;
+            }
+        }
+
+        p {
+            margin: 5px 0;
+        }
+    }
+}
+
+// My Wallet
+
+#my-wallet {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .info {
+        h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+            font-weight: 300;
+        }
+
+        p {
+            font-size: 12px;
+
+            img {
+                height: 19px;;
+            }
+        }
+    }
+
+    a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #4fc1f9;
+        letter-spacing: 2px;
+        font-size: 10px;
+
+    }
+
+}
+
+// Coin List
+
+#coin-list {
+
+    ul {
+        padding: 0;
+        margin: 0 5px;
+
+        li {
+            background-color: #696e7e;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center; 
+            border-radius: 31px;
+            margin-bottom: 15px;
+
+            &h4 {
+                
+            }
+            
+        }
+    }
+}
+
+// Header
+ 
+// .header {
+//      ul{
+//          display: flex;
+//          width: 100%;
+//          justify-content: space-evenly;
+//          align-items: center;
+//          margin: 30px 0;
+//          padding: 0;
+//          li{
+//              list-style: none;
+//              .icon {
+//                  width: 28px;
+//              }
+//              h4 {
+//                  margin: 0;
+//                  text-transform: uppercase;
+//                  letter-spacing: 8px;
+//                  font-size: 10px;
+//              }
+//          }
+//      }
+// }
+
+//  Balance

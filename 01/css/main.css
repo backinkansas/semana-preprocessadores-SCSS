@@ -1,0 +1,112 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+header > img {
+    width: 22%;
+    display: flex;
+    margin: 10px auto 150px auto;
+
+}
+
+h1,
+h2 {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+p {
+    line-height: 2;
+}
+
+#container {
+    width: 77%;
+    margin: 0 auto;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 75px;
+}
+
+.coluna {
+    width: 90%;
+    padding: 10px;
+}
+
+.coluna > img {
+    width: 100%;
+}
+
+.contato {
+    margin-left: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul > li {
+    list-style: none;
+    padding: 15px 0;
+}
+
+.grupo-input {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 17px 50px;
+    border-radius: 8px;
+    border: 1px solid purple;
+    transition: border 500ms;
+}
+
+input:focus {
+    border: 1px solid #808000;
+    outline-style: none;
+}
+
+textarea {
+    margin: 10px 0;
+    padding: 70px 0;
+    border-radius: 8px;
+    border: 1px solid purple;
+    transition: border 500ms;
+}
+
+textarea:focus {
+    border: 1px solid #808000;
+    outline-style: none;
+}
+
+#botao-enviar {
+    padding: 10px;
+    margin-left: 45%;
+}
+
+@media (max-width: 768px) {
+    .linha {
+        flex-direction: column;
+    }
+
+    header > img {
+        width: 45%;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 580px) {
+    h1,
+    h2{
+        text-align: center;
+    }
+
+    header > img {
+        width: 67%;
+    }
+}

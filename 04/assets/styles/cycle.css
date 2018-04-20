@@ -1,0 +1,42 @@
+#cycle #header {
+  opacity: 0.5;
+}
+
+#cycle #card {
+  background-image: url("../images/background-gradient-pb.png");
+  background-size: cover;
+  position: relative;
+  width: 83%;
+  margin: 82px 20px 15px 26px;
+  border-radius: 9px;
+  padding: 12px 2px;
+}
+
+#cycle #card .floating-button {
+  right: 106px;
+  bottom: -16px;
+  width: 33px;
+  height: 33px;
+}
+
+#cycle #card .floating-button img {
+  margin-top: 4px;
+  width: 19px;
+  height: 19px;
+  margin-left: 0px;
+}
+
+#cycle #card .wallet {
+  width: 50px;
+  opacity: 0.5;
+}
+
+#cycle #graph h4 {
+  display: inline-block;
+  border-bottom: solid 2px #f97ab3;
+  padding-bottom: 3px;
+  padding-right: 4px;
+  margin-left: 38px;
+  font-weight: 300;
+}
+/*# sourceMappingURL=cycle.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAMA,AAAA,OAAO,CAAC;EACJ,gBAAgB,EAAE,wCAAwC;CAC7D",
+    "sources": [
+        "corrigido.scss"
+    ],
+    "names": [],
+    "file": "corrigido.css"
+}
